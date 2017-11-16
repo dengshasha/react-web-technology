@@ -1,0 +1,74 @@
+footer {
+    min-width: 1000px;
+}
+footer .footer--top {
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+footer .footer--top section.footer--top__item {
+    width: 15%;
+    min-width: 250px;
+    flex-direction: row;
+    justify-content: center;
+}
+footer .footer--top__item .footer--top-margin {
+    margin-left: 35px;
+}
+footer .footer--top__item.top {
+    margin-top: 60px;
+}
+footer .footer--top h4 {
+    color: #fff;
+    padding-left: 35px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+footer .footer--top h4.footer--top__icon-product {
+    background: url('../images/footer-product.png') no-repeat center left;
+    background-size: 28px 28px;
+}
+footer .footer--top h4.footer--top__icon-service {
+    background: url('../images/footer-service.png') no-repeat center left;
+    background-size: 28px 28px;
+}
+footer .footer--top h4.footer--top__icon-us {
+    background: url('../images/footer-us.png') no-repeat center left;
+    background-size: 28px 28px;
+}
+footer .footer--top .footer--top__line {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+}
+footer .footer--top .footer--top__icon {
+    width: 28px;
+    height: 28px;
+    margin: 20px;
+}
+footer .footer--top ul {
+    padding-left: 0;
+}
+footer .footer--top ul li {
+    color: #fff;
+    font-size: 14px;
+    list-style: none;
+}
+footer .footer--top ul li a {
+    color: #fff;
+}
+
+footer .footer--bottom {
+    height: 50px;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+footer .footer--bottom p {
+    margin: 0;
+    color: #fff;
+    font-size: 12px;
+    line-height: 50px;
+}

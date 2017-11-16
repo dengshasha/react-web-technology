@@ -1,0 +1,72 @@
+body {
+    position: relative;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+header {
+    position: fixed;
+    box-sizing: border-box;
+    background: url('../images/header-bg.png') repeat;
+    clear: both;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    min-width: 1000px;
+    top: 0;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    align-items: center;
+    height: 80px;
+    z-index: 10;
+}
+/*logo是header的一个模块*/
+header .header-logo {
+    margin-left: 46px;
+    width: 172px;
+}
+header nav {
+    height: 100%;
+}
+header ul {
+    margin: 0;
+    height: 100%;
+}
+header ul li {
+    display: inline-block;
+    list-style: none;
+    width: 174px;
+    text-align: center;
+    border-left: 1px solid #ccc;
+    height: 100%;
+}
+header ul li a {
+    height: 100%;
+    display: block;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+header ul li a:hover {
+    color: #999;
+    background: url('../images/header-bg-hover.png') repeat;
+}
+
+header ul li a.active {
+    color: #fff;
+    background: url('../images/header-bg-active.png') repeat;
+}
+header ul li p {
+    margin: 0;
+}
+/*text是nav中的元素，english是text的修饰符*/
+header ul li p.nav__text--English {
+     font-size: 20px;
+}
+header ul li p.nav__text--Chinese {
+    font-size: 16px;
+}
+
+

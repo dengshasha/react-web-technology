@@ -1,0 +1,37 @@
+.modal {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+}
+.modal-container{
+    /*居中*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    transition: all .3s ease-in;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
+}
+.modal .modal-container__header {
+    text-align: right;
+    padding: 5px 10px;
+}
+.modal .modal-container__header button {
+    outline-style: none;
+    border: none;
+    cursor: pointer;
+    color: #999;
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: transparent;
+}

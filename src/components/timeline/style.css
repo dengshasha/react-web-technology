@@ -1,0 +1,93 @@
+.time-line {
+    position: relative;
+}
+.time-line:before {
+     content: '';
+     position: absolute;
+     top: 0;
+     height: 100%;
+     width: 2px;
+     background: #666;
+     left: 50%;
+     margin-left: -1px;
+ }
+.time-line .time-line-item {
+    position: relative;
+    height: 280px;
+}
+/*半圆*/
+.time-line .time-line-item:nth-child(even) .time-line__circle {
+    left: 50%;
+    transform: rotate(180deg);
+    margin-left: -18px;
+}
+.time-line .time-line-item:nth-child(odd) .time-line__circle {
+    left: 50%;
+    margin-left: -18px;
+}
+.time-line .time-line__circle {
+    width: 36px;
+    height: 36px;
+    background: url('../../images/team-icon-circle.png') no-repeat center;
+    position: absolute;
+    top: 30%;
+}
+/*图片*/
+.time-line .time-line__a:hover .time-line__img {
+    transform: scale(1.02);
+}
+.time-line .time-line__img {
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    box-shadow: 0 0 22px 3px rgba(211, 211, 211, 0.6);
+    margin-top: 20px;
+    transition: all .2s linear;
+}
+.time-line .time-line__img-bg {
+    display: flex;
+    align-items: flex-end;
+    width: 430px;
+    height: 230px;
+    border: 1px solid #999;
+    margin: 10px;
+    background: #fff no-repeat center center;
+    background-size: cover;
+}
+.time-line .time-line__img-bg h2 {
+    color: #fff;
+    font-weight: normal;
+    margin: 10px;
+    font-size: 20px;
+    text-shadow: 0 0 5px #999;
+}
+.time-line .time-line-item:nth-child(odd) .time-line__img {
+    left: 50%;
+    margin-left: 20px;
+}
+.time-line .time-line-item:nth-child(even) .time-line__img {
+    right: 50%;
+    margin-right: 20px;
+}
+.time-line .time-line__time {
+    position: absolute;
+    top: 22%;
+}
+.time-line .time-line__time p.time-line__time-month {
+    font-size: 30px;
+    margin: 0;
+    font-weight: bolder;
+}
+.time-line .time-line__time p.time-line__time-year {
+    font-size: 22px;
+    margin: 0;
+}
+.time-line .time-line-item:nth-child(odd) .time-line__time {
+    right: 50%;
+    margin-right: 60px;
+}
+.time-line .time-line-item:nth-child(even) .time-line__time {
+    left: 50%;
+    margin-left: 60px;
+}
+

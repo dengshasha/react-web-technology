@@ -1,0 +1,101 @@
+.blogDetail {
+    min-width: 1000px;
+    margin: 140px auto 0;
+}
+/*标题*/
+.blogDetail>article {
+    width: 800px;
+    margin: 0 auto;
+}
+.blogDetail>article h1 {
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+}
+.blogDetail .blogDetail-line {
+    width: 40px;
+    height: 4px;
+    margin: 0 auto;
+    background-color: #333;
+}
+/*作者信息及分享*/
+.blogDetail .blogDetail__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.blogDetail__header .blogDetail__header-author p{
+    display: inline-block;
+    color: #333;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.blogDetail__header .blogDetail__header-author p:nth-child(2) {
+    margin-left: 30px;
+}
+.blogDetail__header .blogDetail__header-button a:hover img {
+    transform: scale(1.1);
+}
+.blogDetail__header .blogDetail__header-button__wechat {
+    padding-left: 15px;
+    position: relative;
+}
+.blogDetail__header .blogDetail__header-button img{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    transition: all 0.2s linear;
+}
+/*推荐*/
+.blogDetail .blogDetail__recommend {
+    margin-top: 50px;
+    background-color: #f6f6f6;
+    padding-bottom: 100px;
+}
+.blogDetail__recommend .blogDetail__recommend-title {
+    height: 40px;
+    background: url('../images/blogDetail-icon-rec.png') no-repeat center left;
+    background-size: 30px 30px;
+    padding-left: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.blogDetail__recommend .blogDetail__recommend-content {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.blogDetail__recommend .blogDetail__recommend-noText {
+    text-align: center;
+    line-height: 120px;
+    color: #999;
+    font-size: 30px;
+    margin: 0;
+}
+.blogDetail__recommend .blogDetail__recommend-list {
+    width: 800px;
+    margin: 0 auto;
+}
+.blogDetail__recommend .blogDetail__recommend-item {
+    border-bottom: 1px solid #999;
+    clear: both;
+    overflow: hidden;
+}
+.blogDetail__recommend .blogDetail__recommend-item-a:hover {
+    text-decoration: underline;
+}
+.blogDetail__recommend .blogDetail__recommend-item h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.blogDetail__recommend .blogDetail__recommend-author {
+    float: left;
+    margin: 10px 0;
+    color: #666;
+}
+.blogDetail__recommend .blogDetail__recommend-time {
+    float: right;
+    margin: 10px 0;
+    color: #666;
+}

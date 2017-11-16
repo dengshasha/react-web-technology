@@ -1,0 +1,149 @@
+.blog {
+    background-color: #E3E4E3;
+    min-width: 1000px;
+}
+/*列表*/
+.blog .blog__list {
+    width: 62vw;
+    min-width: 900px;
+    margin: 0 auto ;
+    padding-top: 130px;
+}
+/*一列两条*/
+.blog__list .blog__list--two {
+    display: flex;
+}
+.blog__list .blog__list--two>section {
+    flex: 1;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 6px #ddd;
+    transition: .3s all linear;
+}
+.blog__list .blog__list--two>section:hover {
+    box-shadow: 0 9px 10px 0 #ccc;
+    transform: scale(1.01);
+}
+.blog__list .blog__list--two__classification {
+    height: 40px;
+    padding: 0 14px;
+    border-bottom: 1px solid #ccc;
+}
+.blog__list .blog__list--two__classification p {
+    line-height: 40px;
+    color: #666;
+    margin: 0;
+}
+.blog__list .blog__list--two__img {
+    width: 100%;
+    min-height: 200px;
+    height: 15vw;
+    background: #fff no-repeat center center;
+    background-size: cover;
+}
+.blog__list .blog__list--two__title {
+    height: 55px;
+    border-top: 1px solid #ccc;
+    padding: 5px 14px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.blog__list .blog__list--two__title h3 {
+    color: #333;
+    margin: 0;
+}
+
+/*一列一条*/
+.blog__list .blog__list--one {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 6px #ddd;
+    transition: .2s all ease-in;
+    min-height: 300px;
+    height: 20vw;
+}
+.blog__list .blog__list--one:hover {
+    transform: scale(1.01);
+    box-shadow: 0 9px 10px 0 #ccc;
+}
+.blog__list .blog__list--one>article {
+    flex: 1;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0 14px;
+}
+.blog__list .blog__list--one>article p {
+    font-size: 18px;
+    color: #666;
+}
+.blog__list .blog__list--one>article h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.blog__list .blog__list--one__img {
+    flex: 3;
+    height: 100%;
+    display: inline-block;
+}
+
+.blog__list .blog__list--one__img-bg {
+    width: 100%;
+    height: 100%;
+    background: no-repeat center center;
+    background-size: cover;
+}
+
+/*分享按钮*/
+.blog__list .blog__list__share {
+    text-align: right;
+    height: 30px;
+    padding-right: 12px;
+}
+/*一列一个的样式*/
+.blog__list .blog__list__share.one {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+}
+.blog__list .blog__list__share-weibo {
+    opacity: 0;
+    transition: all .2s linear;
+}
+.blog__list .blog__list__share-wechat {
+    opacity: 0;
+    transition: all .2s linear .1s;
+}
+.blog__list .blog__list--two>section:hover .blog__list__share-weibo,
+.blog__list .blog__list--two>section:hover .blog__list__share-wechat,
+.blog__list .blog__list--one:hover .blog__list__share-weibo,
+.blog__list .blog__list--one:hover .blog__list__share-wechat {
+    opacity: 1;
+}
+.blog__list .blog__list__share img.two {
+    width: 20px;
+    height: 20px;
+}
+.blog__list .blog__list__share img.one {
+    width: 30px;
+    height: 30px;
+}
+.blog__list .blog__list__share-wechat {
+    padding-left: 6px;
+    position: relative;
+}
+
+.modal-container__body {
+    text-align: center;
+    padding: 0 30px;
+}
+
+.modal-container__body p {
+    color: #999;
+    font-size: 14px;
+}
+.modal-container__body .qrcode-wechat {
+    margin-top: 30px;
+}

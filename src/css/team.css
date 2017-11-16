@@ -1,0 +1,115 @@
+.team {
+    margin-top: 80px;
+    min-width: 1000px;
+}
+/*顶部介绍*/
+.team .team-bg {
+    height: 410px;
+    background: url('../images/team-bg.png') no-repeat center;
+    background-size: cover;
+}
+.team-bg .team-bg__intro {
+    width: 50%;
+    float: right;
+}
+.team-bg .team-bg__intro h1 {
+    font-size: 45px;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+.team-bg .team-bg__intro h2 {
+    font-size: 30px;
+    margin-top: 0;
+    color: #666;
+    font-weight: normal;
+}
+.team-bg .team-bg__intro p.team-bg__intro--EN {
+    font-size: 24px;
+}
+.team-bg .team-bg__intro p.team-bg__intro--CN {
+    font-size: 20px;
+}
+/*我们的团队*/
+.team .team-intro {
+    margin-top: 50px;
+}
+.team-intro .swiper-container {
+    height: 340px;
+    margin: 50px auto 0;
+    padding: 0 7%;
+    min-width: 960px;
+    cursor: -webkit-grab;
+}
+.team-intro .swiper-slide {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 22px 3px rgba(211, 211, 211, 0.6);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto !important;
+    border-radius: 2px;
+    transition: .2s all linear;
+}
+.team-intro .swiper-slide:hover {
+    transform: scale(1.1);
+}
+.team-intro .team-line__avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #333;
+}
+.team-intro .team-intro__title {
+    font-size: 22px;
+}
+.team-intro .team-intro__EN-name {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.team-intro .team-intro__CN-name {
+    margin-top: 5px;
+    color: #666;
+}
+.team .time-line {
+    margin: 80px auto;
+}
+@media (max-width: 1000px) {
+    .team-intro .swiper-container {
+        padding: 0 20px;
+    }
+}
+/*事件*/
+.team .team-events {
+    margin-top: 50px;
+}
+/*公用模块*/
+.team h1.team-title--english{
+    font-size: 44px;
+    text-align: center;
+    margin: 0;
+    line-height: 90px;
+    font-weight: normal;
+}
+.team h1.team-title--chinese{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 0;
+    font-weight: normal;
+    color: #666;
+}
+.team .team-line {
+    width: 36px;
+    height: 4px;
+    background-color: #333;
+    margin: 0 auto;
+}
+.team .team-description {
+    width: 70%;
+    margin: 40px auto 0;
+    text-align: center;
+}
+.team .team-description p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #666;
+}

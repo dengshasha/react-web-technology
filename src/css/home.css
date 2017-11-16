@@ -1,0 +1,79 @@
+.fullpage .fullpage-item {
+    position: relative;
+}
+.fullpage .fullpage-item__bg {
+    height: 100%;
+    background-size: 100%;
+    background-position: center;
+    min-width: 1000px;
+    background-repeat: no-repeat;
+}
+
+/*新闻和技术*/
+.fullpage .fullpage-newsAndTech {
+    position: relative;
+    background: #f6f6f6 url('../images/home-news-bg.png') no-repeat scroll center;
+    background-size: cover;
+    min-width: 1000px;
+    padding: 80px 0 0;
+    height: 50%;
+    box-sizing: border-box;
+    display: flex;
+}
+.fullpage .fullpage-newsAndTech__content {
+    width: 70%;
+    min-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fullpage .fullpage-newsAndTech__content>a {
+    flex: 1;
+    height: 70%;
+}
+.fullpage .fullpage-newsAndTech-item {
+    box-shadow: 0 0 14px 5px #eee;
+    margin: 0 10px;
+    background-color: #fff;
+    height: 100%;
+}
+.fullpage .fullpage-newsAndTech-item:hover {
+    box-shadow: 0 0 26px 6px #ddd;
+    transition: all .2s linear;
+}
+
+.fullpage .fullpage-newsAndTech__classification {
+    height: 38px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 14px;
+    line-height: 38px;
+}
+.fullpage .fullpage-newsAndTech__img {
+    width: 100%;
+    height: calc(100% - 88px);
+    background: #fff no-repeat center;
+    background-size: cover;
+}
+.fullpage .fullpage-newsAndTech__title {
+    height: 50px;
+    border-top: 1px solid #ccc;
+    padding: 5px 14px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.fullpage .fullpage-newsAndTech-item p {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+.fullpage .fullpage-moreBtn {
+    position: absolute;
+    bottom: 10px;
+    right: 10%;
+}
+
+

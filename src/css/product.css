@@ -1,0 +1,194 @@
+.product {
+    min-width: 1000px;
+}
+.product .product-nav__bg {
+    width: 90%;
+    min-width: 1000px;
+    height: 75vh;
+    min-height: 500px;
+    margin: 80px auto 0;
+    background: #fff no-repeat top center;
+    background-size: cover;
+}
+.product .product-nav {
+    width: 100%;
+    min-width: 1000px;
+    height: 20vh;
+    padding: 40px 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.product ul.product-nav__list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.product ul.product-nav__list li {
+    align-self: center;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin: 0 15px;
+    width: 154px;
+    height: 52px;
+    border-radius: 30px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    background: url('../images/product-btn-normal.png') repeat;
+}
+.product .product-nav__list li:hover {
+    background: url('../images/product-btn-hover.png') repeat;
+}
+.product .product-nav__list li.active {
+    background: url('../images/product-btn-active.png') repeat;
+}
+.product .product-nav__list li.active a {
+    color: #fff;
+}
+.product .product-nav__list li a {
+    color: #666;
+    font-size: 14px;
+}
+/*团队*/
+.product .product-team {
+    width: 100%;
+    min-width: 1000px;
+    height: 450px;
+    background: url('../images/product-team-bg.png') no-repeat center;
+    background-size: cover;
+}
+
+.product-team .product-team__content {
+    display: flex;
+    justify-content: center;
+}
+.product-team .product-team__content>section {
+    min-width: 200px;
+    text-align: center;
+}
+.product-team .product-team__content>section>figure>img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 40px;
+    border: 1px solid #464646;
+    background: #fff;
+}
+
+/*产品介绍*/
+.product .product-introduction {
+    margin: 40px auto;
+}
+
+/*这个盒子的同级元素有浮动，给这个盒子设置清除左右的浮动，让浮动的元素不能飘到这里来*/
+.product-introduction .product-title {
+    clear: both;
+    min-width: 1000px;
+}
+/*清除浮动，作用于浮动元素的父亲，让底部不会浮到这一层的后面*/
+.product-introduction .product-introduction-item:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.product-introduction .product-introduction__content {
+    position: relative;
+    width: 84vw;
+    height: auto;
+    border-bottom: 2px solid #333;
+    margin: 0 auto 40px;
+}
+/*产品详情奇数行和偶数行位置设置*/
+.product-introduction .product-introduction-item:nth-child(odd) .product-introduction__content {
+    float: right;
+    border-left: 2px solid #333;
+}
+.product-introduction .product-introduction-item:nth-child(even) .product-introduction__content {
+    float: left;
+    border-right: 2px solid #333;
+}
+
+.product-introduction .product-introduction-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*偶数列图片与文字交换顺序*/
+.product-introduction .product-introduction-item:nth-child(even) .product-introduction-flex {
+    flex-direction: row-reverse;
+}
+.product-introduction .product-introduction__text {
+    flex: 1;
+    padding: 70px;
+}
+.product-introduction .product-introduction__text article p {
+    line-height: 28px;
+    font-size: 16px;
+    color: #333;
+}
+.product-introduction .product-introduction__img {
+    flex: 1;
+}
+/*奇数列图片靠右显示*/
+.product-introduction .product-introduction-item:nth-child(even) .product-introduction__img {
+    text-align: end;
+}
+@media (max-width: 1000px) {
+    /*如果不这样对奇偶单独设置的话不会生效*/
+    .product-introduction .product-introduction-item:nth-child(odd) .product-introduction__content,
+    .product-introduction .product-introduction-item:nth-child(even) .product-introduction__content{
+        float: none;
+        width: 900px;
+        margin: 0 auto;
+    }
+}
+/*公共模块*/
+.product h1.product-title--english{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    line-height: 90px;
+    font-weight: normal;
+}
+.product h1.product-title--chinese{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 0;
+    font-weight: normal;
+}
+.product .product-line {
+    width: 36px;
+    height: 4px;
+    background-color: #333;
+    margin: 0 auto;
+}
+.product .product-circle {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #333;
+}
+/*产品详情边框上的圆点奇数行和偶数行位置设置*/
+.product .product-introduction-item:nth-child(odd) .product-circle.top {
+    top: 0;
+    left: -7.5px;
+}
+.product .product-introduction-item:nth-child(even) .product-circle.top {
+    top: 0;
+    right: -7.5px;
+}
+.product .product-introduction-item:nth-child(odd) .product-circle.bottom {
+    bottom: -7.5px;
+    left: -7.5px;
+}
+.product .product-introduction-item:nth-child(even) .product-circle.bottom {
+    bottom: -7.5px;
+    right: -7.5px;
+}
+

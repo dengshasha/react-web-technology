@@ -1,0 +1,42 @@
+/*分页*/
+.pagination {
+    margin: 0 auto;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+}
+.pagination .pagination-button {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #faf9f9, #ddd);
+    box-shadow: 0 2px 2px 1px #ccc;
+    vertical-align: middle; /*如果不加这个属性a和span就不在一个水平线上*/
+    line-height: 70px; /*保证图片在中间*/
+}
+.pagination .pagination-button.pre-button:active,
+.pagination .pagination-button.next-button:active {
+    box-shadow: 0 2px 2px 0 #ccc inset;
+}
+
+.pagination .pagination-pageNumber {
+    display: inline-block;
+    width: 105px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 #ccc inset;
+    border-radius: 30px;
+    margin: auto 54px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #666;
+}
+.pagination .pagination-pageNumber>input {
+    border: none;
+    width: 20px;
+    outline-style: none;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}

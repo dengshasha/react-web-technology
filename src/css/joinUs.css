@@ -1,0 +1,171 @@
+.joinUs {
+    margin-top: 80px;
+    min-width: 1000px;
+}
+/*顶部介绍*/
+.joinUs .joinUs-bg {
+    height: 410px;
+    background: url('../images/joinUs-bg.png') no-repeat center;
+    background-size: cover;
+    min-width: 1000px;
+}
+.joinUs-bg .joinUs-bg__intro {
+    width: 40%;
+    float: right;
+    margin-right: 10%;
+    text-align: right;
+}
+.joinUs-bg .joinUs-bg__intro h1 {
+    font-size: 45px;
+    margin-bottom: 0;
+    margin-top: 40px;
+    color: #333;
+}
+.joinUs-bg .joinUs-bg__intro h2 {
+    font-size: 30px;
+    margin-top: 0;
+    color: #666;
+    font-weight: normal;
+}
+.joinUs-bg .joinUs-bg__intro p.joinUs-bg__intro--EN {
+    font-size: 24px;
+    color: #333;
+}
+.joinUs-bg .joinUs-bg__intro p.joinUs-bg__intro--CN {
+    font-size: 20px;
+    color: #666;
+}
+/*公司介绍*/
+.joinUs .joinUs-intro {
+    margin-top: 36px;
+    min-width: 1000px;
+}
+.joinUs-intro .joinUs-intro__line {
+    width: 74px;
+    height: 6px;
+    margin: 0 auto;
+    background-color: #666;
+}
+.joinUs-intro>article {
+    width: 65%;
+    margin: 36px auto 0;
+    min-width: 850px;
+}
+.joinUs-intro>article p {
+    color: #666;
+    font-size: 18px;
+}
+.joinUs-intro>article p.weight {
+    font-weight: bolder;
+}
+/*招聘岗位*/
+.joinUs .joinUs-job {
+    width: 65%;
+    margin: 180px auto 0;
+    box-shadow: 0 0 28px 1px #d3d3d3;
+    position: relative;
+    min-width: 850px;
+}
+.joinUs-job .joinUs-job__title {
+    display: flex;
+    position: absolute;
+    top: -120px;
+
+}
+.joinUs-job:nth-child(odd) .joinUs-job__title {
+    left: 0;
+    margin-left: 60px;
+}
+.joinUs-job:nth-child(even) .joinUs-job__title {
+    right: 0;
+    margin-right: 60px;
+}
+.joinUs-job .joinUs-job__title h1 {
+    font-size: 154px;
+    color: #444;
+    margin: 0;
+}
+.joinUs-job .joinUs-job__jobName {
+    min-width: 324px;
+    height: 90px;
+    background-color: #464646;
+    margin-top: 73px;
+    margin-left: 10px;
+    padding: 5px 0;
+}
+.joinUs-job .joinUs-job__jobName h2.joinUs-job__jobName--CN {
+    color: #fff;
+    font-size: 34px;
+    margin: 0;
+    font-weight: normal;
+    padding: 0 15px;
+}
+.joinUs-job .joinUs-job__jobName h2.joinUs-job__jobName--EN {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    font-weight: normal;
+    padding: 0 15px;
+}
+.joinUs-job .joinUs-job__content {
+    padding: 100px 40px 40px;
+}
+.joinUs-job .joinUs-job__content h3 {
+    padding-left: 30px;
+    font-weight: normal;
+    color: #333;
+    font-size: 20px;
+}
+.joinUs-job .joinUs-job__content h3.joinUs-job__responsibility {
+    background: url('../images/joinUs-icon1.png') no-repeat center left;
+    background-size: 20px 20px;
+}
+.joinUs-job .joinUs-job__content h3.joinUs-job__request {
+    background: url('../images/joinUs-icon2.png') no-repeat center left;
+    background-size: 20px 20px;
+}
+.joinUs-job .joinUs-job__content h3.joinUs-job__address {
+    background: url('../images/joinUs-icon3.png') no-repeat center left;
+    background-size: 20px 20px;
+}
+
+.joinUs-job .joinUs-job__content p.joinUs-job__address-content {
+    padding-left: 20px;
+    color: #666;
+    font-size: 18px;
+}
+.joinUs-job .joinUs-job__content ul li {
+    list-style: decimal;
+    line-height: 30px;
+    font-size: 18px;
+    color: #666;
+}
+.joinUs-job .joinUs-job__button {
+    text-align: center;
+    padding-bottom: 54px;
+}
+.joinUs-job .joinUs-job__button button {
+    width: 225px;
+    height: 74px;
+    background: transparent url('../images/joinUs-btn.png') no-repeat center;
+    background-size: contain;
+    border: none;
+    outline-style: none;
+    cursor: pointer;
+}
+.joinUs-job .joinUs-job__button button:hover {
+    background-size: contain;
+}
+.joinUs-job .joinUs-job__button button:active {
+    background: transparent url('../images/joinUs-btn-active.png') no-repeat center;
+    background-size: contain;
+}
+.joinUs-job .joinUs-job__button button p {
+    background: url('../images/joinUs-btnIcon.png') no-repeat center left;
+    background-size: contain;
+    display: inline-block;
+    font-size: 26px;
+    color: #666;
+    margin: 0;
+    padding-left: 40px;
+}

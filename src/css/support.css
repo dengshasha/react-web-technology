@@ -1,0 +1,198 @@
+.support {
+    margin-top: 80px;
+}
+/*支持介绍*/
+.support .support-intro {
+    width: 630px;
+    margin-left: 15%;
+    margin-top: 140px;
+}
+.support-intro .support-intro__title--EN {
+    font-size: 60px;
+    color: #333;
+    margin: 0;
+}
+.support-intro .support-intro__title--CN {
+    font-size: 36px;
+    color: #666;
+    font-weight: normal;
+    margin-top: 0;
+}
+.support-intro .support-intro__text--EN {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 0;
+}
+.support-intro .support-intro__text--CN {
+    font-size: 26px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/*step1*/
+.support .support-step1 {
+    margin-left: 15%;
+    clear: both;
+    overflow: hidden;
+    min-width: calc(1000px - 15%);
+}
+.support-step1 .support-step1__title {
+    float: left;
+    margin-top: 10%;
+}
+.support-step1__title>p {
+    font-size: 36px;
+    color: #666;
+}
+.support-step1 .support-step1__program {
+    position: relative;
+    width: 62rem;
+    height: 62rem;
+    border-radius: 50%;
+    border: 1px dashed #444;
+    float: right;
+    margin-right: -10%;
+}
+.support-step1 .support-step1__program__bg {
+    position: absolute;
+    width: 36rem;
+    height: 20.6rem;
+    right: 10%;
+    top: 50%;
+    margin-top: -10.3rem;
+}
+.support-step1 .support-step1__program-item {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 164px;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.support-step1 .support-step1__program-item.top {
+    top: 10%;
+    left: 0;
+}
+.support-step1 .support-step1__program-item.center {
+    left: -65px;
+    top: 50%;
+    margin-top: -82px;
+}
+.support-step1 .support-step1__program-item.bottom {
+    bottom: 10%;
+    left: 0;
+}
+
+.support-step1 .support-step1__program__title {
+    font-size: 26px;
+}
+.support-step1 .support-step1__program__title>span {
+    display: inline-block;
+    width: 8px;
+    height: 22px;
+    background-color: #666;
+    margin-right: 16px;
+}
+/*step2*/
+.support-step2 {
+    min-width: 1000px;
+}
+.support-step2 .support-step2__adviceBtn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.support-step2 .support-step2__adviceBtn>button {
+    width: 226px;
+    height: 62px;
+    background: transparent no-repeat;
+    background-size: contain;
+    border: none;
+    margin: auto 15px;
+    outline: none;
+    cursor: pointer;
+}
+.support-step2 .support-step2__adviceBtn>button.normal {
+    background: transparent url('../images/support-button-normal.png') no-repeat;
+    background-size: contain;
+}
+.support-step2 .support-step2__adviceBtn>button:hover {
+    background-image:  url('../images/support-button-hover.png');
+}
+.support-step2 .support-step2__adviceBtn>button.active {
+    background: transparent url('../images/support-button-active.png') no-repeat;
+    background-size: contain;
+}
+
+.support-step2 .support-step2__adviceBtn>button p {
+    display: inline;
+    font-size: 24px;
+    font-weight: normal;
+    padding-left: 10px;
+    position: relative;
+    top: -5px;
+}
+.support-step2 .support-step2__adviceBtn>button img {
+    width: 30px;
+}
+.support-step2 .support-step2__textarea {
+    width: 70%;
+    margin: 40px auto 0;
+    height: 375px;
+}
+.support-step2 .support-step2__textarea>textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: 1px solid #959595;
+    outline-color: #ddd;
+    font-size: 18px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.support-step2 .support-step2__textarea>textarea::placeholder {
+    font-size: 18px;
+    color: #999;
+}
+.support-step2 .support-step2__submitBtn {
+    margin: 68px auto 100px;
+    text-align: center;
+}
+.support-step2 .support-step2__submitBtn>button {
+    width: 226px;
+    height: 62px;
+    background: transparent url('../images/support-button-normal.png') no-repeat;
+    background-size: contain;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.support-step2 .support-step2__submitBtn>button:hover {
+    background: transparent url('../images/support-button-hover.png') no-repeat;
+    background-size: contain;
+}
+.support-step2 .support-step2__submitBtn>button:active {
+    background: transparent url('../images/support-button-active.png') no-repeat;
+    background-size: contain;
+}
+.support-step2 .support-step2__submitBtn>button:active p {
+    color: #fff;
+}
+.support-step2 .support-step2__submitBtn>button p {
+    font-size: 28px;
+    color: #666;
+    margin: 0;
+}
+/*公共模块*/
+.support .support-step__title {
+    font-size: 44px;
+}
+.support .support-step__title>span {
+    display: inline-block;
+    width: 14px;
+    height: 41px;
+    background-color: #666;
+    margin-right: 20px;
+}

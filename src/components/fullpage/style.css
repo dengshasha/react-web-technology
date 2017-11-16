@@ -1,0 +1,51 @@
+html,bodu{
+    height: 100%;
+}
+
+.fullpage-nav nav {
+    width: 30px;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10;
+}
+.fullpage-nav nav .fullpage-nav__line {
+    height: 100%;
+    width: 1px;
+    background: #999;
+    position: absolute;
+    left: 50%;
+}
+.fullpage-nav nav .fullpage-nav__dot {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.fullpage-nav nav .fullpage-nav__dot a {
+    width: 12px;
+    height: 12px;
+    display: block;
+    border-radius: 100%;
+    background-color: #545454;
+    z-index: 10;
+    background-clip: content-box;
+    transition: all 0.2s linear;
+}
+.fullpage-nav nav .fullpage-nav__dot a.active {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #545454;
+    padding: 3px;
+}
+.fullpage-page .fullpage__img {
+    width: 100%;
+    margin-top: 80px;
+}
+.fullpage-page .fullpage__img img {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,90 @@
+.blogDetail {
+    width: 100%;
+}
+/*标题*/
+.blogDetail>article {
+    padding: 0 15px;
+}
+.blogDetail>article h1 {
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+}
+.blogDetail .blogDetail-line {
+    width: 40px;
+    height: 4px;
+    margin: 0 auto;
+    background-color: #333;
+}
+/*作者信息及分享*/
+.blogDetail .blogDetail__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.blogDetail__header .blogDetail__header-author p{
+    display: inline-block;
+    color: #333;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.blogDetail__header .blogDetail__header-author p:nth-child(2) {
+    margin-left: 20px;
+}
+.blogDetail__header .blogDetail__header-button__wechat {
+    padding-left: 10px;
+}
+.blogDetail__header .blogDetail__header-button img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+/*推荐*/
+.blogDetail .blogDetail__recommend {
+    margin-top: 50px;
+    background-color: #f6f6f6;
+    padding: 0 15px 100px;
+    box-sizing: border-box;
+}
+.blogDetail__recommend .blogDetail__recommend-title {
+    height: 40px;
+    background: url('../images/blogDetail-icon-rec.png') no-repeat center left;
+    background-size: 30px 30px;
+    padding-left: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.blogDetail__recommend .blogDetail__recommend-content {
+    padding-top: 30px;
+}
+.blogDetail__recommend .blogDetail__recommend-noText {
+    text-align: center;
+    line-height: 120px;
+    color: #999;
+    font-size: 30px;
+    margin: 0;
+}
+
+.blogDetail__recommend .blogDetail__recommend-item {
+    border-bottom: 1px solid #999;
+    clear: both;
+    overflow: hidden;
+}
+.blogDetail__recommend .blogDetail__recommend-item-a:hover {
+    text-decoration: underline;
+}
+.blogDetail__recommend .blogDetail__recommend-item h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.blogDetail__recommend .blogDetail__recommend-author {
+    float: left;
+    margin: 10px 0;
+    color: #666;
+}
+.blogDetail__recommend .blogDetail__recommend-time {
+    float: right;
+    margin: 10px 0;
+    color: #666;
+}

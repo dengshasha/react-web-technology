@@ -1,0 +1,25 @@
+{
+  "result": {
+    "data": [
+      {
+        "categoryName": "新闻通知",
+        "coverUrl": "//static.jiahui.com/oss-img/e8e03842-cefb-4ef7-a52d-84bd546ac872",
+        "createTime": "2017-11-01 10:41:49",
+        "title": "现代编程语言将何去何从？",
+      },
+      {
+        "categoryName": "技术分享",
+        "coverUrl": "//static.jiahui.com/oss-img/e8e03842-cefb-4ef7-a52d-84bd546ac872",
+        "createTime": "2017-11-01 10:41:49",
+        "title": "React的生命周期",
+      },
+      {
+        "categoryName": "技术分享",
+        "coverUrl": "//static.jiahui.com/oss-img/e8e03842-cefb-4ef7-a52d-84bd546ac872",
+        "createTime": "2017-11-01 10:41:49",
+        "title": "React的state与props",
+      },
+    ],
+    "total": 3
+  }
+}
